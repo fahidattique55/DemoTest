@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RandomJokesViewController.h
 //  FET
 //
 //  Created by Fahad Attique on 14/02/2019.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface RandomJokesViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

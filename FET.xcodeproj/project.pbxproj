@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8757F8D92E046A6637862C /* libPods-FETUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECCDC4CD2ECDD8174C2875A /* libPods-FETUITests.a */; };
 		2D69FBE722159D79000304F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FBE622159D79000304F6 /* AppDelegate.m */; };
-		2D69FBEA22159D79000304F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FBE922159D79000304F6 /* ViewController.m */; };
-		2D69FBED22159D79000304F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FBEB22159D79000304F6 /* Main.storyboard */; };
 		2D69FBEF22159D7A000304F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FBEE22159D7A000304F6 /* Assets.xcassets */; };
 		2D69FBF222159D7A000304F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FBF022159D7A000304F6 /* LaunchScreen.storyboard */; };
 		2D69FBF522159D7A000304F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FBF422159D7A000304F6 /* main.m */; };
 		2D69FBFF22159D7A000304F6 /* FETTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FBFE22159D7A000304F6 /* FETTests.m */; };
 		2D69FC0A22159D7A000304F6 /* FETUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC0922159D7A000304F6 /* FETUITests.m */; };
+		2D69FC2422159F6E000304F6 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC2322159F6E000304F6 /* Network.m */; };
+		2D69FC292215A10D000304F6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FC282215A10D000304F6 /* Podfile */; };
+		2D69FC342215A7D0000304F6 /* JokesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC332215A7D0000304F6 /* JokesLoader.m */; };
+		2D69FC392215B14E000304F6 /* Jokes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FC382215B14E000304F6 /* Jokes.storyboard */; };
+		2D69FC7B2215B2C7000304F6 /* RandomJokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC7A2215B2C7000304F6 /* RandomJokesViewController.m */; };
+		2D69FC7F2215B67C000304F6 /* ResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC7E2215B67C000304F6 /* ResponseSerializer.m */; };
+		2D69FC832215B6F2000304F6 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC822215B6F2000304F6 /* BaseResponse.m */; };
+		2D69FC872215B8FA000304F6 /* Joke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC862215B8FA000304F6 /* Joke.m */; };
+		2D69FC8D2215C14B000304F6 /* JokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC8B2215C14B000304F6 /* JokeTableViewCell.m */; };
+		2D69FC8E2215C14B000304F6 /* JokeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D69FC8C2215C14B000304F6 /* JokeTableViewCell.xib */; };
+		2D69FC932215C950000304F6 /* JokesSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69FC912215C950000304F6 /* JokesSettingsViewController.m */; };
+		9D635C38EEAD66F071D5305E /* libPods-FETTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF546518DFBC3BD370220750 /* libPods-FETTests.a */; };
+		EAF64E8A4FA69D962D246356 /* libPods-FET.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E319803D54F87A45C17CBFA2 /* libPods-FET.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +50,6 @@
 		2D69FBE222159D79000304F6 /* FET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D69FBE522159D79000304F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D69FBE622159D79000304F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D69FBE822159D79000304F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D69FBE922159D79000304F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2D69FBEC22159D79000304F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D69FBEE22159D7A000304F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D69FBF122159D7A000304F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D69FBF322159D7A000304F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,36 @@
 		2D69FC0522159D7A000304F6 /* FETUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FETUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D69FC0922159D7A000304F6 /* FETUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FETUITests.m; sourceTree = "<group>"; };
 		2D69FC0B22159D7A000304F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D69FC2222159F6E000304F6 /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		2D69FC2322159F6E000304F6 /* Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		2D69FC282215A10D000304F6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		2D69FC2A2215A3AD000304F6 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D69FC312215A62B000304F6 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		2D69FC322215A7D0000304F6 /* JokesLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JokesLoader.h; sourceTree = "<group>"; };
+		2D69FC332215A7D0000304F6 /* JokesLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesLoader.m; sourceTree = "<group>"; };
+		2D69FC382215B14E000304F6 /* Jokes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jokes.storyboard; sourceTree = "<group>"; };
+		2D69FC792215B2C7000304F6 /* RandomJokesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomJokesViewController.h; sourceTree = "<group>"; };
+		2D69FC7A2215B2C7000304F6 /* RandomJokesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomJokesViewController.m; sourceTree = "<group>"; };
+		2D69FC7D2215B67C000304F6 /* ResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseSerializer.h; sourceTree = "<group>"; };
+		2D69FC7E2215B67C000304F6 /* ResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseSerializer.m; sourceTree = "<group>"; };
+		2D69FC812215B6F2000304F6 /* BaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		2D69FC822215B6F2000304F6 /* BaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		2D69FC852215B8FA000304F6 /* Joke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Joke.h; sourceTree = "<group>"; };
+		2D69FC862215B8FA000304F6 /* Joke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Joke.m; sourceTree = "<group>"; };
+		2D69FC8A2215C14B000304F6 /* JokeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JokeTableViewCell.h; sourceTree = "<group>"; };
+		2D69FC8B2215C14B000304F6 /* JokeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokeTableViewCell.m; sourceTree = "<group>"; };
+		2D69FC8C2215C14B000304F6 /* JokeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JokeTableViewCell.xib; sourceTree = "<group>"; };
+		2D69FC902215C950000304F6 /* JokesSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JokesSettingsViewController.h; sourceTree = "<group>"; };
+		2D69FC912215C950000304F6 /* JokesSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesSettingsViewController.m; sourceTree = "<group>"; };
+		5ECCDC4CD2ECDD8174C2875A /* libPods-FETUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FETUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4A4C964438082CAE69A9A4 /* Pods-FETTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FETTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FETTests/Pods-FETTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6FD98A6A34DCB43338CCDAA /* Pods-FET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FET.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FET/Pods-FET.debug.xcconfig"; sourceTree = "<group>"; };
+		A840D66F8F61B9405CC7F720 /* Pods-FETTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FETTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FETTests/Pods-FETTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF546518DFBC3BD370220750 /* libPods-FETTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FETTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71535B0E43A775A55320541 /* Pods-FET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FET.release.xcconfig"; path = "Pods/Target Support Files/Pods-FET/Pods-FET.release.xcconfig"; sourceTree = "<group>"; };
+		CAD06455AFBB8A8766034E8C /* Pods-FETUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FETUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FETUITests/Pods-FETUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E319803D54F87A45C17CBFA2 /* libPods-FET.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FET.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F887F68A18EFDFBAEB5A4AC5 /* Pods-FETUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FETUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FETUITests/Pods-FETUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF64E8A4FA69D962D246356 /* libPods-FET.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D635C38EEAD66F071D5305E /* libPods-FETTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8757F8D92E046A6637862C /* libPods-FETUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +127,8 @@
 				2D69FBFD22159D7A000304F6 /* FETTests */,
 				2D69FC0822159D7A000304F6 /* FETUITests */,
 				2D69FBE322159D79000304F6 /* Products */,
+				F91D42D4A44DFE6456328C65 /* Pods */,
+				9D350858DB6C1A9E52EFB9F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +145,12 @@
 		2D69FBE422159D79000304F6 /* FET */ = {
 			isa = PBXGroup;
 			children = (
-				2D69FBE522159D79000304F6 /* AppDelegate.h */,
-				2D69FBE622159D79000304F6 /* AppDelegate.m */,
-				2D69FBE822159D79000304F6 /* ViewController.h */,
-				2D69FBE922159D79000304F6 /* ViewController.m */,
-				2D69FBEB22159D79000304F6 /* Main.storyboard */,
-				2D69FBEE22159D7A000304F6 /* Assets.xcassets */,
-				2D69FBF022159D7A000304F6 /* LaunchScreen.storyboard */,
-				2D69FBF322159D7A000304F6 /* Info.plist */,
-				2D69FBF422159D7A000304F6 /* main.m */,
+				2D69FC1B22159D96000304F6 /* Application */,
+				2D69FC1A22159D90000304F6 /* Networking */,
+				2D69FC1922159D8C000304F6 /* Models */,
+				2D69FC1822159D87000304F6 /* Stories */,
+				2D69FC1C22159DA4000304F6 /* User Interface */,
+				2D69FC1722159D80000304F6 /* Resources */,
 			);
 			path = FET;
 			sourceTree = "<group>";
@@ -132,6 +173,202 @@
 			path = FETUITests;
 			sourceTree = "<group>";
 		};
+		2D69FC1722159D80000304F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FBEE22159D7A000304F6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D69FC1822159D87000304F6 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC782215B2AF000304F6 /* JokesListing */,
+				2D69FC8F2215C939000304F6 /* JokesSettings */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		2D69FC1922159D8C000304F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC842215B8EF000304F6 /* Joke */,
+				2D69FC802215B6E5000304F6 /* BaseResponse */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D69FC1A22159D90000304F6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC7C2215B644000304F6 /* ResponseSerializer */,
+				2D69FC2022159DFD000304F6 /* Networking */,
+				2D69FC1F22159DF2000304F6 /* APILoaders */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D69FC1B22159D96000304F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC302215A61B000304F6 /* AppConstants */,
+				2D69FC1E22159DE0000304F6 /* Main */,
+				2D69FC1D22159DB4000304F6 /* AppDelegate */,
+				2D69FC2122159E12000304F6 /* InfoPList */,
+				2D69FC272215A0DF000304F6 /* PodFile */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2D69FC1C22159DA4000304F6 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FBF022159D7A000304F6 /* LaunchScreen.storyboard */,
+				2D69FC382215B14E000304F6 /* Jokes.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		2D69FC1D22159DB4000304F6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FBE522159D79000304F6 /* AppDelegate.h */,
+				2D69FBE622159D79000304F6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D69FC1E22159DE0000304F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FBF422159D7A000304F6 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2D69FC1F22159DF2000304F6 /* APILoaders */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC322215A7D0000304F6 /* JokesLoader.h */,
+				2D69FC332215A7D0000304F6 /* JokesLoader.m */,
+			);
+			path = APILoaders;
+			sourceTree = "<group>";
+		};
+		2D69FC2022159DFD000304F6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC2222159F6E000304F6 /* Network.h */,
+				2D69FC2322159F6E000304F6 /* Network.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D69FC2122159E12000304F6 /* InfoPList */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FBF322159D7A000304F6 /* Info.plist */,
+			);
+			path = InfoPList;
+			sourceTree = "<group>";
+		};
+		2D69FC272215A0DF000304F6 /* PodFile */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC282215A10D000304F6 /* Podfile */,
+			);
+			path = PodFile;
+			sourceTree = "<group>";
+		};
+		2D69FC302215A61B000304F6 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC312215A62B000304F6 /* AppConstants.h */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		2D69FC782215B2AF000304F6 /* JokesListing */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC792215B2C7000304F6 /* RandomJokesViewController.h */,
+				2D69FC7A2215B2C7000304F6 /* RandomJokesViewController.m */,
+				2D69FC892215C12D000304F6 /* JokeCell */,
+			);
+			path = JokesListing;
+			sourceTree = "<group>";
+		};
+		2D69FC7C2215B644000304F6 /* ResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC7D2215B67C000304F6 /* ResponseSerializer.h */,
+				2D69FC7E2215B67C000304F6 /* ResponseSerializer.m */,
+			);
+			path = ResponseSerializer;
+			sourceTree = "<group>";
+		};
+		2D69FC802215B6E5000304F6 /* BaseResponse */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC812215B6F2000304F6 /* BaseResponse.h */,
+				2D69FC822215B6F2000304F6 /* BaseResponse.m */,
+			);
+			path = BaseResponse;
+			sourceTree = "<group>";
+		};
+		2D69FC842215B8EF000304F6 /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC852215B8FA000304F6 /* Joke.h */,
+				2D69FC862215B8FA000304F6 /* Joke.m */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		2D69FC892215C12D000304F6 /* JokeCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC8A2215C14B000304F6 /* JokeTableViewCell.h */,
+				2D69FC8B2215C14B000304F6 /* JokeTableViewCell.m */,
+				2D69FC8C2215C14B000304F6 /* JokeTableViewCell.xib */,
+			);
+			path = JokeCell;
+			sourceTree = "<group>";
+		};
+		2D69FC8F2215C939000304F6 /* JokesSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC902215C950000304F6 /* JokesSettingsViewController.h */,
+				2D69FC912215C950000304F6 /* JokesSettingsViewController.m */,
+			);
+			path = JokesSettings;
+			sourceTree = "<group>";
+		};
+		9D350858DB6C1A9E52EFB9F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D69FC2A2215A3AD000304F6 /* libAFNetworking.a */,
+				E319803D54F87A45C17CBFA2 /* libPods-FET.a */,
+				AF546518DFBC3BD370220750 /* libPods-FETTests.a */,
+				5ECCDC4CD2ECDD8174C2875A /* libPods-FETUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91D42D4A44DFE6456328C65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6FD98A6A34DCB43338CCDAA /* Pods-FET.debug.xcconfig */,
+				B71535B0E43A775A55320541 /* Pods-FET.release.xcconfig */,
+				6D4A4C964438082CAE69A9A4 /* Pods-FETTests.debug.xcconfig */,
+				A840D66F8F61B9405CC7F720 /* Pods-FETTests.release.xcconfig */,
+				CAD06455AFBB8A8766034E8C /* Pods-FETUITests.debug.xcconfig */,
+				F887F68A18EFDFBAEB5A4AC5 /* Pods-FETUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D69FC0E22159D7A000304F6 /* Build configuration list for PBXNativeTarget "FET" */;
 			buildPhases = (
+				4770B23702B009799576229F /* [CP] Check Pods Manifest.lock */,
 				2D69FBDE22159D79000304F6 /* Sources */,
 				2D69FBDF22159D79000304F6 /* Frameworks */,
 				2D69FBE022159D79000304F6 /* Resources */,
+				528A109F9A7B7E7741DF060E /* [CP] Embed Pods Frameworks */,
+				A1CBD943F2B8F740A3BDB4B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +396,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D69FC1122159D7A000304F6 /* Build configuration list for PBXNativeTarget "FETTests" */;
 			buildPhases = (
+				BBC728D147B9B39EDDBF96B1 /* [CP] Check Pods Manifest.lock */,
 				2D69FBF622159D7A000304F6 /* Sources */,
 				2D69FBF722159D7A000304F6 /* Frameworks */,
 				2D69FBF822159D7A000304F6 /* Resources */,
+				4B718135A69A95A7829CAEC4 /* [CP] Embed Pods Frameworks */,
+				B3D24B01371C75D32DF80EFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +417,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D69FC1422159D7A000304F6 /* Build configuration list for PBXNativeTarget "FETUITests" */;
 			buildPhases = (
+				536878E59F15320B78499B9C /* [CP] Check Pods Manifest.lock */,
 				2D69FC0122159D7A000304F6 /* Sources */,
 				2D69FC0222159D7A000304F6 /* Frameworks */,
 				2D69FC0322159D7A000304F6 /* Resources */,
+				A4F40067C8E7692235E0676E /* [CP] Embed Pods Frameworks */,
+				F7DED161802E81D4BE2EC3C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +481,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D69FC392215B14E000304F6 /* Jokes.storyboard in Resources */,
 				2D69FBF222159D7A000304F6 /* LaunchScreen.storyboard in Resources */,
+				2D69FC8E2215C14B000304F6 /* JokeTableViewCell.xib in Resources */,
 				2D69FBEF22159D7A000304F6 /* Assets.xcassets in Resources */,
-				2D69FBED22159D79000304F6 /* Main.storyboard in Resources */,
+				2D69FC292215A10D000304F6 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +505,203 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4770B23702B009799576229F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FET-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B718135A69A95A7829CAEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FETTests/Pods-FETTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528A109F9A7B7E7741DF060E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FET/Pods-FET-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		536878E59F15320B78499B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FETUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CBD943F2B8F740A3BDB4B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FET/Pods-FET-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F40067C8E7692235E0676E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FETUITests/Pods-FETUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D24B01371C75D32DF80EFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FETTests/Pods-FETTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC728D147B9B39EDDBF96B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FETTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DED161802E81D4BE2EC3C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FETUITests/Pods-FETUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D69FBDE22159D79000304F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D69FBEA22159D79000304F6 /* ViewController.m in Sources */,
+				2D69FC2422159F6E000304F6 /* Network.m in Sources */,
+				2D69FC7B2215B2C7000304F6 /* RandomJokesViewController.m in Sources */,
+				2D69FC872215B8FA000304F6 /* Joke.m in Sources */,
 				2D69FBF522159D7A000304F6 /* main.m in Sources */,
+				2D69FC342215A7D0000304F6 /* JokesLoader.m in Sources */,
+				2D69FC8D2215C14B000304F6 /* JokeTableViewCell.m in Sources */,
+				2D69FC932215C950000304F6 /* JokesSettingsViewController.m in Sources */,
+				2D69FC832215B6F2000304F6 /* BaseResponse.m in Sources */,
+				2D69FC7F2215B67C000304F6 /* ResponseSerializer.m in Sources */,
 				2D69FBE722159D79000304F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +738,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2D69FBEB22159D79000304F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D69FBEC22159D79000304F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D69FBF022159D7A000304F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,38 +863,43 @@
 		};
 		2D69FC0F22159D7A000304F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FD98A6A34DCB43338CCDAA /* Pods-FET.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FET/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FET/Application/InfoPList/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fahid..FET;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahid.FET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2D69FC1022159D7A000304F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71535B0E43A775A55320541 /* Pods-FET.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FET/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FET/Application/InfoPList/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fahid..FET;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahid.FET;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		2D69FC1222159D7A000304F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4A4C964438082CAE69A9A4 /* Pods-FETTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +918,7 @@
 		};
 		2D69FC1322159D7A000304F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A840D66F8F61B9405CC7F720 /* Pods-FETTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +937,7 @@
 		};
 		2D69FC1522159D7A000304F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD06455AFBB8A8766034E8C /* Pods-FETUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FETUITests/Info.plist;
@@ -518,6 +955,7 @@
 		};
 		2D69FC1622159D7A000304F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F887F68A18EFDFBAEB5A4AC5 /* Pods-FETUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FETUITests/Info.plist;
